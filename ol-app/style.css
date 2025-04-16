@@ -1,0 +1,13 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  height: 600px;
+  width: 100%;
+}
+#title {
+  margin: 1rem;
+}
