@@ -1,6 +1,11 @@
 # maps2zim-poc
 PoC on having a ZIM with maps inside
 
+## Prerequisites
+
+- OSM tiles generated locally (done with https://github.com/Magellium/osmtilemaker for the PoC, simply follow the README)
+- Python 3.13
+
 ## How it was built
 
 Create a Node.JS Vite app with ol package:
@@ -15,12 +20,6 @@ Tweak few things:
 - adjust `vite.config.js` to specify base directory
 
 ## Python setup
-
-Check python version (3.13 expected).
-
-```bash
-python --version
-```
 
 Create your venv and install requirements
 
